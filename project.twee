@@ -1,0 +1,26 @@
+:: StoryTitle
+project
+
+
+:: StoryData
+{
+  "ifid": "BA0DA5E6-50BA-4F17-94A1-F6B90C13286D",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "start",
+  "zoom": 1
+}
+
+
+:: next {"position":"600,500","size":"100,100"}
+you kill lebron james in a freak accident that will go down in history as being the worst autonomous car crash ever
+
+[[start]] 
+
+
+
+
+:: start {"position":"600,300","size":"100,100"}
+make autonomous car 
+
+[[next]]
