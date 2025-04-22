@@ -7,20 +7,154 @@ project
   "ifid": "BA0DA5E6-50BA-4F17-94A1-F6B90C13286D",
   "format": "Harlowe",
   "format-version": "3.3.9",
-  "start": "start",
+  "start": "intro",
   "zoom": 1
 }
 
 
-:: next {"position":"600,500","size":"100,100"}
-you kill lebron james in a freak accident that will go down in history as being the worst autonomous car crash ever
+:: badWeather {"position":"700,1500","size":"100,100"}
+Priotitizing deadlines over user safety, which is ethically irresponsible, and should and violates ethical prinicples of priotitizing safety.
 
-[[start]] 
-
-
+[[Continue->scenario4]]
 
 
-:: start {"position":"600,300","size":"100,100"}
-make autonomous car 
+:: bar {"position":"900,1100","size":"100,100"}
+Fewer people are harmed, but there’s a higher risk of the system failing mid-landing and crashing completely.
 
-[[next]]
+[[Continue->scenario3]] 
+
+
+:: dangerousFear {"position":"1000,2500","size":"100,100"}
+Unfortunately, your fears were realized. The cars continue to be dangerous, with effectively nothing done in helping the problem.
+
+Unfortunately, you’ve now been laid-off.
+
+The company, being crippled under lawsuits, chooses to sell one of its final assets: its remaining user data.
+
+[[Back to start->start]] 
+
+
+:: doctorAppointment {"position":"900,1900","size":"100,100"}
+There's a significant risk to the passenger, but the passenger would get to their doctor’s appointment on time.
+
+[[Continue->scenario5]]
+
+
+:: fired {"position":"1200,2400","size":"100,100"}
+Notifying your friends and family prevented them from being at risk, but you are now known as a whistleblower.
+
+Due to your new title, you are quickly dropped from your occupation at SkyCab. You have made your job search a lot more difficult, for the greater good of humanity.
+
+[[Back to start->start]]
+
+
+:: flagRisk {"position":"900,1500","size":"100,100"}
+Making sure any risks are effectively mitigated ensures safety and responsibility, reducing harm and encouraging good ethical frameworks.
+
+[[Continue->scenario4]]
+
+
+:: intro {"position":"800,300","size":"100,100"}
+Welcome to SkyCab! You’re the software dev behind Muncie's first autonomous air taxi. Your code will decide if passengers get smooth skies or a less than favorable fate.
+
+[[start]]
+
+
+:: jobMarket {"position":"700,2300","size":"100,100"}
+You decide to let the fire burn
+
+While, initially, the air taxes are performing well, more and more bad press about their lack of reliability becomes widespread.
+
+The company aims for an effective re-brand, and an associated rewrite of parts of the codebase.
+
+You start to overhear information from the team responsible for handling large scale data collection. Apparently, security is poorly configured here. It gets to a point that you are concerned about the possibility for a data breach if this isn’t handled.
+
+[[Let the fire burn->leakFear]]
+[[Speak with a higher up->notifySomeone]] 
+
+
+:: leakFear {"position":"600,2500","size":"100,100"}
+Unfortunately, your fears were realized. Tons of user data has been leaked. With this new 
+PR issue, the company is struggling, and looking to cut heads.
+
+Unfortunately, you’ve now been laid-off.
+
+The company, being crippled under lawsuits, chooses to sell one of its final assets: its remaining user data.
+
+[[Back to start->start]]
+
+
+:: maintenanceHub {"position":"700,1900","size":"100,100"}
+The passenger loses their apointment, but the risk is completely mitigated
+
+[[Continue->scenario5]]
+
+
+:: notifySomeone {"position":"900,2300","size":"100,100"}
+You talk with your manager, doing your best to fully explain the issue.
+
+While they don’t dismiss the problem, they reiterate how tight of a deadline this project is on. Even with the bugs, it’s forced to continue.
+
+Knowing some of the implications of this, you feel frustrated with the lack of proper attention to the issue. You start to feel concerned about the state of these vehicles.
+
+[[Tell friends/family that these cars have problems, losing potential customers->fired]]
+[[Continue->dangerousFear]]
+
+
+:: park {"position":"700,1100","size":"100,100"}
+Land in the park. More lives are at risk, but it’s an open space and easier for the system to land safely.
+
+[[Continue->scenario3]] 
+
+
+:: pushback {"position":"900,700","size":"100,100"}
+Delaying the trial ensures the system is safe, tested, and reliable, aligning with the ethical responsibility of reducing harm.
+
+[[Continue->scenario2]]
+
+
+:: scenario2 {"position":"800,900","size":"100,100"}
+Your air taxi loses navigation control mid-flight and must land immediately. There are only two possible emergency landing zones left:
+
+[[A crowded public park with 30 people->park]]
+[[A rooftop bar helipad where 2 maintenance workers are present.->bar]]
+
+
+:: scenario3 {"position":"800,1300","size":"100,100"}
+While programming, you realize the AI model sometimes behaves unpredictably in bad weather conditions, but the team lead says, “We'll deal with that post-launch.”
+
+[[Leave the bug for later—no one’s likely to test it when the weather is bad anyway->badWeather]]
+[[Flag it as a critical safety risk and delay release until it's resolved->flagRisk]]
+
+
+:: scenario4 {"position":"800,1700","size":"100,100"}
+Your air taxi detects a mechanical failure during flight. It can still complete the trip—but the system estimates a 10% chance of catastrophic failure before landing.
+
+[[Divert immediately even though the passenger will miss a doctor’s apointment.->maintenanceHub]]
+[[Continue the flight to their destination, risking a fatal mid-air failure.->doctorAppointment]]
+
+
+:: scenario5 {"position":"800,2100","size":"100,100"}
+You start to notice tons of potential bugs. Race conditions in the model, design flaws, and certain ethical dilemmas are entirely overlooked.
+
+The entire state of the model is at an impasse, as it’s plagued with issues.
+
+You have to talk with your manager
+
+[[The job market is really tough right now...->jobMarket]]
+[[Someone needs to know about this->notifySomeone]]
+
+
+:: setback {"position":"700,700","size":"100,100"}
+Fulfilling the deadline despite known bugs prioritizes managerial approval and deadlines over user safety, which is ethically irresponsible.
+
+[[Continue->scenario2]]
+
+
+:: start {"position":"800,500","size":"100,100"}
+You begin programming the taxi and your first trial run is comming up, but you know that there’s still bugs you need to fix and dont feel ready yet.
+
+What should you do:
+[[Fulfill the deadline, your superiors will be unhappy if you have another setback.->setback]]
+[[Push back the deadline, and wait until you know you have everything in order for a successful trial run.->pushback]]
+
