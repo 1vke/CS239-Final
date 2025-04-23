@@ -85,7 +85,7 @@ The company, being crippled under lawsuits, chooses to sell one of its final ass
 
 
 :: maintenanceHub {"position":"700,1900","size":"100,100"}
-The passenger loses their apointment, but the risk is completely mitigated
+The passenger loses their apointment, but the risk is completely mitigated.
 
 [[Continue->scenario5]]
 
@@ -123,12 +123,12 @@ Your air taxi loses navigation control mid-flight and must land immediately. The
 :: scenario3 {"position":"800,1300","size":"100,100"}
 While programming, you realize the AI model sometimes behaves unpredictably in bad weather conditions, but the team lead says, “We'll deal with that post-launch.”
 
-[[Leave the bug for later—no one’s likely to test it when the weather is bad anyway->badWeather]]
+[[Leave the bug for later, no one’s likely to test it when the weather is bad anyway->badWeather]]
 [[Flag it as a critical safety risk and delay release until it's resolved->flagRisk]]
 
 
 :: scenario4 {"position":"800,1700","size":"100,100"}
-Your air taxi detects a mechanical failure during flight. It can still complete the trip—but the system estimates a 10% chance of catastrophic failure before landing.
+Your air taxi detects a mechanical failure during flight. It can still complete the trip, but the system estimates a 10% chance of catastrophic failure before landing.
 
 [[Divert immediately even though the passenger will miss a doctor’s apointment.->maintenanceHub]]
 [[Continue the flight to their destination, risking a fatal mid-air failure.->doctorAppointment]]
